@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Bubble_sort",
+            "request": "launch",
+            "mainClass": "Bubble_sort",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "EX5",
+            "request": "launch",
+            "mainClass": "EX5",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "EX4",
+            "request": "launch",
+            "mainClass": "EX4",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "EX3",
+            "request": "launch",
+            "mainClass": "EX3",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "bucket_sort",
+            "request": "launch",
+            "mainClass": "bucket_sort",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "radix_sort",
+            "request": "launch",
+            "mainClass": "radix_sort",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "count_sort",
+            "request": "launch",
+            "mainClass": "count_sort",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "quick_sort",
+            "request": "launch",
+            "mainClass": "quick_sort",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "merge_sort",
+            "request": "launch",
+            "mainClass": "merge_sort",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "p2",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "p1",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "EX2",
+            "request": "launch",
+            "mainClass": "EX2",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "Ex1",
+            "projectName": "Sorting_ec040307"
+        },
+        {
+            "type": "java",
+            "name": "insertion_sort",
+            "request": "launch",
+            "mainClass": "insertion_sort",
+            "projectName": "Sorting_44e3f592"
+        },
+        {
+            "type": "java",
+            "name": "selection_sort",
+            "request": "launch",
+            "mainClass": "selection_sort",
+            "projectName": "Sorting_44e3f592"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Bubble_sort",
+            "request": "launch",
+            "mainClass": "Bubble_sort",
+            "projectName": "Sorting_44e3f592"
+        }
+    ]
+}

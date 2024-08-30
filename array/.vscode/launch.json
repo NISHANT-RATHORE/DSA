@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "isPartitionPossible",
+            "request": "launch",
+            "mainClass": "isPartitionPossible",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_range",
+            "request": "launch",
+            "mainClass": "sum_of_range",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "prefixsum",
+            "request": "launch",
+            "mainClass": "prefixsum",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "arraytraversal",
+            "request": "launch",
+            "mainClass": "arraytraversal",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "freq_array",
+            "request": "launch",
+            "mainClass": "freq_array",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "operation_in_array",
+            "request": "launch",
+            "mainClass": "operation_in_array",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "rotate_the_array",
+            "request": "launch",
+            "mainClass": "rotate_the_array",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "second_largest",
+            "request": "launch",
+            "mainClass": "second_largest",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "sortArray",
+            "request": "launch",
+            "mainClass": "sortArray",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "sortevenandodd",
+            "request": "launch",
+            "mainClass": "sortevenandodd",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "swapping",
+            "request": "launch",
+            "mainClass": "swapping",
+            "projectName": "array_5d04ae07"
+        },
+        {
+            "type": "java",
+            "name": "uniqueno",
+            "request": "launch",
+            "mainClass": "uniqueno",
+            "projectName": "array_5d04ae07"
+        }
+    ]
+}
