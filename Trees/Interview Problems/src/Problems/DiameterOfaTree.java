@@ -4,31 +4,9 @@ import TreeTemplate.Node;
 
 public class DiameterOfaTree {
     public static void main(String[] args) {
-        Node a = new Node(1);
-        Node b = new Node(2);
-        Node c = new Node(3);
-        Node d = new Node(4);
-        Node e = new Node(5);
-        Node f = new Node(6);
-        Node g = new Node(69);
-
-
-        //connect left pointers
-        a.left = b;
-        b.left = d;
-        c.left = f;
-
-        //connect right pointers
-        a.right = c;
-        c.right = g;
-        b.right = e;
-
-        //diameter
-        int diameter = diameterOfBinaryTree(a);
-        int diameter2 = diameterOfBinaryTree2(a);
-        System.out.println(diameter);
-        System.out.println(diameter2);
-
+        Integer [] lot = {1,2,3,4,5,null,null,6,null,null,7};
+        Node root = Node.constructTree(lot);
+        System.out.println(diameterOfBinaryTree2(root));
     }
     public static int diameterOfBinaryTree(Node root) {
         if(root==null) return 0;
