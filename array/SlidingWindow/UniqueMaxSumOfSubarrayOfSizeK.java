@@ -25,6 +25,7 @@ public class UniqueMaxSumOfSubarrayOfSizeK {
                 st.add(nums[j]);
             }
             if(st.size()<k) {
+
                 st.clear();
                 continue;
             }

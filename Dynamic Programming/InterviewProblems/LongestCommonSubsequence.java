@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class LongestCommonSubsequence {
 
     public static void main(String[] args) {
-        String s1 = "CDEECDCBAEDAB";
+        String s1 = "NISHANT";
         String s2 = "EABCEAECBAAB";
         int m = s1.length();
         int n = s2.length();
