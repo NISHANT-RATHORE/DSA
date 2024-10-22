@@ -16,6 +16,10 @@ public class BFS {
         graph.addEdgesInList(edges,false);
         List<Integer> defal = bfsOfGraph(nodes,graph.adjList);
         for (int val : defal) System.out.print(val+ " ");
+        System.out.println();
+
+        List<Integer> bfsForMultipleComponent = bfsOfGraphForMultipleComponent(nodes,graph.adjList);
+        for(int val : bfsForMultipleComponent) System.out.print(val+ " ");
     }
 
     private static List<Integer> bfsOfGraph(int nodes, List<List<Integer>> adjList) {
@@ -24,7 +28,7 @@ public class BFS {
         Queue<Integer> queue = new LinkedList<>();
         isVisited[0]=true;
         queue.offer(0);
-        while(queue.size()>0){
+        while(!queue.isEmpty()){
             int node = queue.poll();
             res.add(node);
             for(int neighbour : adjList.get(node)){
@@ -35,5 +39,31 @@ public class BFS {
             }
         }
         return res;
+    }
+
+    private static List<Integer> bfsOfGraphForMultipleComponent(int nodes, List<List<Integer>> adjList) {
+        List<Integer> res = new ArrayList<>();
+        boolean [] isVisited = new boolean[nodes];
+        for(int i=0;i<nodes;i++){
+            if(!isVisited[i]){
+                bfs(i,isVisited,adjList,res);
+            }
+        }
+        return res;
+    }
+    public static void bfs(int source,boolean [] isVisited,List<List<Integer>> adjList,List<Integer> res){
+        Queue<Integer> queue = new LinkedList<>();
+        isVisited[source]=true;
+        queue.offer(source);
+        while(!queue.isEmpty()){
+            int node = queue.poll();
+            res.add(node);
+            for(int neighbour : adjList.get(node)){
+                if(!isVisited[neighbour]){
+                    isVisited[neighbour]=true;
+                    queue.offer(neighbour);
+                }
+            }
+        }
     }
 }

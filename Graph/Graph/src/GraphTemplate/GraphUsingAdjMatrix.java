@@ -3,7 +3,7 @@ package GraphTemplate;
 import java.util.Arrays;
 
 public class GraphUsingAdjMatrix {
-    int adjMatrix[][];
+    int[][] adjMatrix;
     public GraphUsingAdjMatrix(int nodes){
         adjMatrix = new int[nodes][nodes];
     }

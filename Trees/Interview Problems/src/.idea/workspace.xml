@@ -21,12 +21,12 @@
     &quot;assignee&quot;: &quot;NISHANT-RATHORE&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NISHANT-RATHORE/DSA.git&quot;,
-    &quot;accountId&quot;: &quot;bb254c8a-6fd6-4c72-863a-24de6d186faa&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NISHANT-RATHORE/DSA.git",
+    "accountId": "e5a57ba5-5f65-4682-9c6b-c40a3040bb1f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -67,6 +67,7 @@
       <workItem from="1723622501122" duration="1000" />
       <workItem from="1725109165913" duration="1307000" />
       <workItem from="1726581944121" duration="754000" />
+      <workItem from="1726636697065" duration="848000" />
     </task>
     <servers />
   </component>

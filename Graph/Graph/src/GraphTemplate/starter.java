@@ -9,7 +9,7 @@ public class starter {
         graph.addEdgesInMatrix(edges,false);
         graph.printGraph();
 
-        GraphUsingAdjList graph2 = new GraphUsingAdjList(4);
+        GraphTemplate.GraphUsingAdjList graph2 = new GraphUsingAdjList(4);
         graph2.addEdgesInList(edges,false);
         graph2.printGraph();
 

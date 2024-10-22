@@ -3,7 +3,7 @@ package GraphTemplate;
 import java.util.ArrayList;
 import java.util.List;
 
-class Pair{
+class Pair {
     int node;
     int weight;
 
@@ -19,61 +19,63 @@ class Pair{
                 ')';
     }
 }
+
 public class GraphUsingAdjList {
     public List<List<Integer>> adjList;
     List<List<Pair>> adjListwithWeight;
-    public GraphUsingAdjList(int nodes){
+
+    public GraphUsingAdjList(int nodes) {
         adjList = new ArrayList<>();
         adjListwithWeight = new ArrayList<>();
-        for (int i=0;i<nodes;i++){
+        for (int i = 0; i < nodes; i++) {
             adjList.add(new ArrayList<>());
             adjListwithWeight.add(new ArrayList<>());
         }
     }
 
-    public void addEdgesInList(int [][] edges,boolean isDirected){
-        for(int [] edge : edges){
+    public void addEdgesInList(int[][] edges, boolean isDirected) {
+        for (int[] edge : edges) {
             int u = edge[0];
             int v = edge[1];
-            if(isDirected){
+            if (isDirected) {
                 adjList.get(u).add(v);
-            } else{
+            } else {
                 adjList.get(u).add(v);
                 adjList.get(v).add(u);
             }
         }
     }
 
-    public void addEdgesInListWithWeight(int [][] edges,boolean isDirected){
-        for(int [] edge : edges){
+    public void addEdgesInListWithWeight(int[][] edges, boolean isDirected) {
+        for (int[] edge : edges) {
             int u = edge[0];
             int v = edge[1];
             int w = edge[2];
-            if(isDirected){
-                Pair pair = new Pair(v,w);
+            if (isDirected) {
+                Pair pair = new Pair(v, w);
                 adjListwithWeight.get(u).add(pair);
-            } else{
-                Pair pair1 = new Pair(v,w);
-                Pair pair2 = new Pair(u,w);
+            } else {
+                Pair pair1 = new Pair(v, w);
+                Pair pair2 = new Pair(u, w);
                 adjListwithWeight.get(u).add(pair1);
                 adjListwithWeight.get(v).add(pair2);
             }
         }
     }
 
-    public void printGraph(){
+    public void printGraph() {
         int i = 0;
-        for(List<Integer> al : adjList){
-            System.out.print(i++ +" -> ");
+        for (List<Integer> al : adjList) {
+            System.out.print(i++ + " -> ");
             System.out.println(al);
         }
         System.out.println();
     }
 
-    public void printGraphwithWeight(){
+    public void printGraphwithWeight() {
         int i = 0;
-        for(List<Pair> al : adjListwithWeight){
-            System.out.print(i++ +" -> ");
+        for (List<Pair> al : adjListwithWeight) {
+            System.out.print(i++ + " -> ");
             System.out.println(al);
         }
         System.out.println();
