@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43babb0c-29e7-4405-8890-ecfc34f6780a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GraphTemplate/GraphUsingAdjList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphTemplate/GraphUsingAdjMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphTemplate/starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphTraversals/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphTraversals/DFS.java" afterDir="false" />
+    <list default="true" id="43babb0c-29e7-4405-8890-ecfc34f6780a" name="Changes" comment="graph">
       <change afterPath="$PROJECT_DIR$/../Linked-List/Linked-List.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Linked-List/LinkedListRevise/LinkedListRevise.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Linked-List/out/production/Linked-List/Linked-List.iml" afterDir="false" />
@@ -18,18 +13,6 @@
       <change afterPath="$PROJECT_DIR$/../Trees/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Graph.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/GraphTemplate/GraphUsingAdjList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/GraphTemplate/GraphUsingAdjMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/GraphTemplate/starter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/GraphTraversals/BFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/GraphTraversals/DFS.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Trees/BST/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/BST/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Trees/GENERIC TREE/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/GENERIC TREE/basic2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Trees/Trees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/Trees.iml" afterDir="false" />
@@ -74,29 +57,46 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvaluateDivision.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetWatchedVideosbyYourFriends.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RottingOranges.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordLadder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordLadderII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AccountMerge.executor": "Run",
+    "Application.BFS.executor": "Run",
+    "Application.EvaluateDivision.executor": "Run",
+    "Application.GetWatchedVideosbyYourFriends.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MinimumTimetoCollectAllApplesinaTree.executor": "Run",
+    "Application.MostStonesRemovedwithSameRoworColumn.executor": "Run",
+    "Application.RottingOranges.executor": "Run",
+    "Application.WordLadder.executor": "Run",
+    "Application.WordLadderII.executor": "Run",
+    "Application.starter.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nishant/DSA/DSA/Graph",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.RottingOranges">
+}]]></component>
+  <component name="RunManager" selected="Application.UndirectedGraphCycle">
+    <configuration name="AccountMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphHardProblems.AccountMerge" />
+      <module name="Graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GraphHardProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GraphHardProblems.EvaluateDivision" />
       <module name="Graph" />
@@ -110,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetWatchedVideosbyYourFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphProblems.GetWatchedVideosbyYourFriends" />
+    <configuration name="MinimumTimetoCollectAllApplesinaTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphProblems.MinimumTimetoCollectAllApplesinaTree" />
       <module name="Graph" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RottingOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphProblems.RottingOranges" />
+    <configuration name="MostStonesRemovedwithSameRoworColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphProblems.MostStonesRemovedwithSameRoworColumn" />
       <module name="Graph" />
       <extension name="coverage">
         <pattern>
@@ -136,25 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphHardProblems.WordLadder" />
+    <configuration name="UndirectedGraphCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphProblems.UndirectedGraphCycle" />
       <module name="Graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphHardProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordLadderII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphHardProblems.WordLadderII" />
-      <module name="Graph" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GraphHardProblems.*" />
+          <option name="PATTERN" value="GraphProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RottingOranges" />
-        <item itemvalue="Application.GetWatchedVideosbyYourFriends" />
+        <item itemvalue="Application.UndirectedGraphCycle" />
+        <item itemvalue="Application.AccountMerge" />
+        <item itemvalue="Application.MostStonesRemovedwithSameRoworColumn" />
+        <item itemvalue="Application.MinimumTimetoCollectAllApplesinaTree" />
         <item itemvalue="Application.EvaluateDivision" />
-        <item itemvalue="Application.WordLadder" />
-        <item itemvalue="Application.WordLadderII" />
       </list>
     </recent_temporary>
   </component>
@@ -190,10 +177,39 @@
       <updated>1729751216137</updated>
       <workItem from="1729751217885" duration="10354000" />
       <workItem from="1729780541501" duration="917000" />
+      <workItem from="1729831723558" duration="246000" />
+      <workItem from="1729832017519" duration="6127000" />
+      <workItem from="1729844658572" duration="653000" />
+      <workItem from="1729846060348" duration="511000" />
+      <workItem from="1729932858093" duration="3498000" />
     </task>
+    <task id="LOCAL-00001" summary="graph">
+      <option name="closed" value="true" />
+      <created>1729831831073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729831831073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GraphHardProblems/EvaluateDivision.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

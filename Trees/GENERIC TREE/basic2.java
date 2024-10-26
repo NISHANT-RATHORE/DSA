@@ -1,5 +1,5 @@
 import java.util.*;
-public class basic{
+public class basic2 {
     public static void formtree(Node root){
         root.child.add(new Node(5));
         root.child.add(new Node(11));
